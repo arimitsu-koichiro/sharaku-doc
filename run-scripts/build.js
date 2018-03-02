@@ -2,7 +2,6 @@ const fs = require('fs');
 const path = require('path');
 const mkdirp = require('mkdirp');
 const md = require('markdown-it')();
-const config = require('./config');
 const sharakuDocDir = path.join(__dirname, '../');
 const filesBaseDir = path.join(sharakuDocDir, 'files');
 const outputBaseDir = path.join(sharakuDocDir, 'dist');
