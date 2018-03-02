@@ -1,0 +1,15 @@
+{
+  "name": "sharaku-doc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node ./run-scripts/build.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "markdown-it": "^8.4.1",
+    "mkdirp": "^0.5.1"
+  }
+}
